@@ -33,7 +33,7 @@
         }
 
         $.ajax({
-            url: "./TOMORROW_PRICE.csv", // CSV path
+            url: "https://raw.githubusercontent.com/marktsao/stock_website/master/TOMORROW_PRICE.csv", // CSV path
             success: function(data) { // when it successes, execute function
                 $('#table').append(arrayToTable(Papa.parse(data).data));
             }
