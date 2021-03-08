@@ -1,16 +1,15 @@
 text
 Today is 20210305
 2317
-2021-1-14 is the day to buy.The lowest price is 108.0
 2021-1-18 is the day to sell.The highest price is 111.0
 2021-1-22 is the day to buy.The lowest price is 117.0
 2021-1-27 is the day to sell.The highest price is 122.5
 2021-2-25 is the day to buy.The lowest price is 114.0
 2317 tomorrow price
-open:115.07
-close:113.31
-high:114.83
-low:113.27
+open:114.95
+close:114.85
+high:115.89
+low:113.8
 2327
 2021-1-15 is the day to sell.The highest price is 596.0
 2021-1-25 is the day to buy.The lowest price is 608.0
@@ -18,51 +17,50 @@ low:113.27
 2021-2-3 is the day to buy.The lowest price is 587.0
 2021-2-25 is the day to sell.The highest price is 612.0
 2327 tomorrow price
-open:540.63
-close:572.23
-high:575.56
-low:541.66
+open:564.09
+close:566.37
+high:579.38
+low:555.75
 2330
 2021-1-20 is the day to buy.The lowest price is 631.0
 2021-1-22 is the day to sell.The highest price is 649.0
 2021-2-3 is the day to buy.The lowest price is 630.0
 2021-2-23 is the day to sell.The highest price is 633.0
 2330 tomorrow price
-open:602.14
-close:602.39
-high:595.36
-low:588.22
+open:589.61
+close:590.57
+high:594.84
+low:583.57
 2379
 2021-1-25 is the day to sell.The highest price is 488.0
 2021-2-5 is the day to buy.The lowest price is 482.0
 2021-2-22 is the day to sell.The highest price is 485.0
+Tomorrow is the day to buy.The lowest price is 450.35
 2379 tomorrow price
-open:448.13
-close:439.64
-high:449.86
-low:445.72
+open:457.81
+close:455.94
+high:466.58
+low:450.35
 2454
-2021-1-14 is the day to sell.The highest price is 854.0
 2021-1-21 is the day to buy.The lowest price is 888.0
 2021-1-25 is the day to sell.The highest price is 891.0
 2021-2-2 is the day to buy.The lowest price is 920.0
 2021-2-19 is the day to sell.The highest price is 953.0
 2454 tomorrow price
-open:880.12
-close:882.87
-high:893.62
-low:859.13
+open:899.71
+close:889.27
+high:912.96
+low:880.5
 3034
-2021-1-14 is the day to sell.The highest price is 392.0
 2021-1-22 is the day to buy.The lowest price is 408.5
 2021-1-25 is the day to sell.The highest price is 408.0
 2021-2-3 is the day to buy.The lowest price is 418.0
 2021-2-23 is the day to sell.The highest price is 503.0
 3034 tomorrow price
-open:472.97
-close:479.38
-high:479.75
-low:461.21
+open:483.21
+close:481.23
+high:491.12
+low:468.02
 3661
 2021-1-19 is the day to buy.The lowest price is 809.0
 2021-1-20 is the day to sell.The highest price is 811.0
@@ -70,8 +68,9 @@ low:461.21
 2021-1-26 is the day to sell.The highest price is 822.0
 2021-2-17 is the day to buy.The lowest price is 852.0
 2021-2-24 is the day to sell.The highest price is 881.0
+Tomorrow is the day to buy.The lowest price is 847.23
 3661 tomorrow price
-open:821.05
-close:848.04
-high:857.41
-low:814.01
+open:875.98
+close:867.56
+high:894.73
+low:847.23
