@@ -1,4 +1,4 @@
-timestamp = $(date +'%Y%m%d %H%M%S')
+timestamp=$(date +'%Y%m%d %H%M%S')
 echo $timestamp >> /home/marktsao/stock_website/test
 git add -A
 git commit -m "auto update $timestamp"
