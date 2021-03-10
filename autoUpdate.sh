@@ -5,7 +5,7 @@ date=$(date +'%Y%m%d')
 time=$(date +'%H%M%S')
 echo "$date $time"
 
-conda init bash
+source /home/marktsao/anaconda3/etc/profile.d/conda.sh
 conda activate myenv
 
 # Download the latest csv of stock price
@@ -23,4 +23,4 @@ cd /home/marktsao/stock_website/
 /usr/bin/git commit -m "$date auto update"
 /usr/bin/git push origin master
 
-curl -X POST -H "Authorization: Bearer gZd0yMvonRUdlrR9LSquHCIKGGau7hjjADlzLxOmJ3W" -d "$date" https://notify-api.line.me/api/notify
+curl -X POST -H "Authorization: Bearer gZd0yMvonRUdlrR9LSquHCIKGGau7hjjADlzLxOmJ3W" -d "message=$date" https://notify-api.line.me/api/notify
