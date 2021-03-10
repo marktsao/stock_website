@@ -5,6 +5,7 @@ date=$(date +'%Y%m%d')
 time=$(date +'%H%M%S')
 echo "$date $time"
 
+conda init bash
 conda activate myenv
 
 # Download the latest csv of stock price
