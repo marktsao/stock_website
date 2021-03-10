@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Get current date & time
 date=$(date +'%Y%m%d')
 time=$(date +'%H%M%S')
