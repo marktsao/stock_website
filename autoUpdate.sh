@@ -17,6 +17,8 @@ python /home/marktsao/DLpractice/Stock_Prices_Prediction_LSTM/all_stock_4value_t
 # Copy TOMORROW_PRICE.csv to /home/marktsao/stock_website
 cp /home/marktsao/DLpractice/Stock_Prices_Prediction_LSTM/TOMORROW_PRICE.csv /home/marktsao/stock_website
 
+conda deactivate
+
 # Push to github 
 cd /home/marktsao/stock_website/
 /usr/bin/git add -A
