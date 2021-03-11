@@ -28,4 +28,4 @@ cd /home/marktsao/stock_website/
 /usr/bin/git push origin master
 
 curl -X POST -H "Authorization: Bearer gZd0yMvonRUdlrR9LSquHCIKGGau7hjjADlzLxOmJ3W" -d "message=$date 訓練完成
-# 查看結果：https://marktsao.github.io/stock_website/" https://notify-api.line.me/api/notify
+查看結果：https://marktsao.github.io/stock_website/" https://notify-api.line.me/api/notify
