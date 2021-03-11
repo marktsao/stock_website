@@ -5,7 +5,7 @@ date=$(date +'%Y%m%d')
 time=$(date +'%H%M%S')
 echo "$date $time"
 
-curl -X POST -H "Authorization: Bearer gZd0yMvonRUdlrR9LSquHCIKGGau7hjjADlzLxOmJ3W" -d "message=$date 訓練開始" https://notify-api.line.me/api/notify
+# curl -X POST -H "Authorization: Bearer gZd0yMvonRUdlrR9LSquHCIKGGau7hjjADlzLxOmJ3W" -d "message=$date 訓練開始" https://notify-api.line.me/api/notify
 
 source /home/marktsao/anaconda3/etc/profile.d/conda.sh
 conda activate myenv
@@ -25,5 +25,5 @@ cd /home/marktsao/stock_website/
 /usr/bin/git commit -m "$date auto update"
 /usr/bin/git push origin master
 
-curl -X POST -H "Authorization: Bearer gZd0yMvonRUdlrR9LSquHCIKGGau7hjjADlzLxOmJ3W" -d "message=$date 訓練完成
-查看結果：https://marktsao.github.io/stock_website/" https://notify-api.line.me/api/notify
+# curl -X POST -H "Authorization: Bearer gZd0yMvonRUdlrR9LSquHCIKGGau7hjjADlzLxOmJ3W" -d "message=$date 訓練完成
+# 查看結果：https://marktsao.github.io/stock_website/" https://notify-api.line.me/api/notify
