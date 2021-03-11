@@ -14,7 +14,7 @@ conda activate myenv
 python /home/marktsao/DLpractice/Stock_Prices_Prediction_LSTM/Taiwan_Stocks/update_taiwan_stock.py
 
 # Make prediction
-python /home/marktsao/DLpractice/Stock_Prices_Prediction_LSTM/all_stock_4value_together.py
+# python /home/marktsao/DLpractice/Stock_Prices_Prediction_LSTM/all_stock_4value_together.py
 
 # Copy TOMORROW_PRICE.csv to /home/marktsao/stock_website
 cp /home/marktsao/DLpractice/Stock_Prices_Prediction_LSTM/TOMORROW_PRICE.csv /home/marktsao/stock_website
