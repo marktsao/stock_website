@@ -15,7 +15,7 @@ else
 fi
 
 # curl -X POST -H "Authorization: Bearer $token" -d "message=$date 訓練開始" https://notify-api.line.me/api/notify
-#curl -X POST -H "Authorization: Bearer gZd0yMvonRUdlrR9LSquHCIKGGau7hjjADlzLxOmJ3W" -d "message=$date 訓練開始" https://notify-api.line.me/api/notify # private
+curl -X POST -H "Authorization: Bearer gZd0yMvonRUdlrR9LSquHCIKGGau7hjjADlzLxOmJ3W" -d "message=$date 訓練開始" https://notify-api.line.me/api/notify # private
 # curl -X POST -H "Authorization: Bearer Oh4jBjR5YQAvw2GUmAZByamh25dKIgY3HMshDACzhLr" -d "message=$date 訓練開始" https://notify-api.line.me/api/notify # public
 
 source /home/marktsao/anaconda3/etc/profile.d/conda.sh
@@ -40,7 +40,7 @@ cd /home/marktsao/stock_website/
 
 # curl -X POST -H "Authorization: Bearer $token" -d "message=$date 訓練完成
 # 查看結果：https://marktsao.github.io/stock_website/" https://notify-api.line.me/api/notify
-# curl -X POST -H "Authorization: Bearer gZd0yMvonRUdlrR9LSquHCIKGGau7hjjADlzLxOmJ3W" -d "message=$date 訓練完成
-# 查看結果：https://marktsao.github.io/stock_website/" https://notify-api.line.me/api/notify # private
+curl -X POST -H "Authorization: Bearer gZd0yMvonRUdlrR9LSquHCIKGGau7hjjADlzLxOmJ3W" -d "message=$date 訓練完成
+查看結果：https://marktsao.github.io/stock_website/" https://notify-api.line.me/api/notify # private
 # curl -X POST -H "Authorization: Bearer Oh4jBjR5YQAvw2GUmAZByamh25dKIgY3HMshDACzhLr" -d "message=$date 訓練完成
 # 查看結果：https://marktsao.github.io/stock_website/" https://notify-api.line.me/api/notify # public
